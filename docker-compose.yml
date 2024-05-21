@@ -1,0 +1,15 @@
+version: '1.0'
+
+services:
+  postgresdb:
+    container_name: postgresdb
+    image: postgres
+    restart : always
+    environment:
+      POSTGRES_USER : a
+      POSTGRES_PASSWORD: 123456
+      POSTGRES_DB : attendance
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres:/var/lib/postgresql/data

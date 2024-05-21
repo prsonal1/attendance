@@ -1,0 +1,7 @@
+{
+    "NAME": 'attendance',
+    "USER": "a",
+    "PASSWORD": 123456,
+    "HOST": '0.0.0.0',
+    "PORT": 5432
+}
